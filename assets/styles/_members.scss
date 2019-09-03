@@ -1,0 +1,141 @@
+
+
+.page-id-1718 {
+
+  .site-container {
+
+    max-width: 1152px;
+    margin: 0 auto;
+
+    .site-header {
+
+      max-width: 1152px;
+      margin: 0 auto;
+
+      .before-header.widget-area {
+        height: 2.5rem;
+        .wrap {
+          height: 7rem;
+          #custom_html-2 {
+            font-size: .75rem;
+          }
+        }
+      }
+
+      .wrap {
+        height: 6rem;
+        .title-area {
+          width: 9.5rem;
+          a img {
+            max-width: 100%;
+          }
+        }
+
+        .nav-primary.genesis-responsive-menu {
+
+          .wrap {
+
+            height: 3rem;
+            width: 100%;
+
+            .menu {
+              font-size: .85rem;
+            }
+
+            @media (min-width: 896px ) {
+
+              ul#menu-header-menu li.menu-item {
+                height: 2rem;
+              }
+            }
+
+            @media (min-width: 896px) {
+
+              ul#menu-header-menu li ul.sub-menu {
+                margin-top: 2.3rem;
+              }
+            }
+
+            li.right.search .search-form .search-toggle {
+              background: center/1rem no-repeat url(assets/images/search.svg);
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+    .site-header.shrink .title-area {
+      top: 24px;
+    }
+    @media (min-width: 896px) {
+      .site-header.shrink .wrap .nav-primary .wrap ul#menu-header-menu li ul.sub-menu {
+        margin-top: 2.7rem;
+      }
+    }
+
+
+
+    .site-inner {
+
+      .content-sidebar-wrap {
+        .content {
+          padding: 0;
+        }
+      }
+
+    }
+
+    footer {
+
+      font-size: 1rem;
+
+      button {
+        font-size: 1rem;
+      }
+
+      .before-footer {
+        padding: 5.5rem 0;
+      }
+
+      .footer-widgets .widget-title {
+        font-size: 1.2rem;
+      }
+
+      .footer-widgets {
+        font-size: 1rem;
+      }
+
+      #subscribeenews-ext-3 {
+
+        input#subbox {
+          font-size: 1rem;
+        }
+
+        .send-icon {
+          width: 1.1rem;
+          height: 1.1rem;
+        }
+
+      }
+
+      .footer-credits.widget-area {
+        font-size: 1rem;
+      }
+
+      .footer-credits {
+        margin-top: 5rem;
+      }
+
+    }
+
+  }
+
+  .entry-content ul {
+    margin-left: 1rem !important;
+  }
+
+}
